@@ -1,4 +1,4 @@
-licenconst got = require("got");
+const got = require("got");
 const CookieHandler = require("../lib/cookies");
 const {setHeaders, setAgent} = require("../lib/options");
 const type = require("../util/types");
